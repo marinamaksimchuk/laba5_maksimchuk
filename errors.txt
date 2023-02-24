@@ -1,0 +1,30 @@
+Теоретичні відомості:
+Git —система контрою версій. Технологія, яку можна скачати на комп’ютер.
+Github —сервіс, який дозволяє працювати з твоїми Git проєктами. Це називається репозиторіями. Крім Github існують і інші сервіси (Bitbucket, GitLab).
+
+Основні команди Git:
+git init – дозволяє проініціалізувати репозиторій в поточній папці;
+git status – показує поточний статус;
+git add – відслідковує зміни файлів;
+git add index.html — додає index.html (починає контролювати зміни);
+git add . — додає всі файли;
+git commit – зберігає зміни в коміт;
+git commit -m 'commit message' — створює коміт з повідомленням;
+git branch – робота з гілками в репозиторії;
+git branch — показує список гілок;
+git branch branch-name —створює нову гілку branch-name
+git branch -D branch-name — видаляє гілку branch-name
+git checkout – переключається на іншу гілку;
+git checkout branch-name — переключається на останній коміт в гілці branch-name;
+git checkout -b branch-name — створює і переключається на гілку branch-name
+git merge – поєднує поточну гілку з обраною;
+git merge branch-name — поєднує поточну гілку з branch-name;
+git config – конфігурація і параметри git;
+git config --global user.name — показує ім’я користувача;
+git config --global user.name 'new user' — змінює ім’я користувача;
+git config --global user.email — показує email користувача;
+git config --global user.email 'test@gmail.com' — змінює email користувача;
+git push – заливає поточні локальні коміти у віддалений репозиторій;
+git pull – забирає зміни з віддаленого репозиторію в локальний;
+git clone – клонує проєкт з віддаленого репозиторію.
+
